@@ -22,8 +22,8 @@ The default server (bin/server.js) shipped with idserver has no configurations -
 - `port` : TCP port number where the server should listen on; Defaults to `1970`;
 - `address` : The network address where the server should listen on; Defaults to `127.0.0.1`;
 
-- `journaling` : Enables or disables the journaling supports; Default to `true`;
-- `journalFile` : File path for storing the journaling data; Default to `/tmp/idserver.journal`;
+- `journaling` : Enables or disables the journaling supports; Defaults to `true`;
+- `journalFile` : File path for storing the journaling data; Defaults to `/tmp/idserver.journal`;
 
 - `dataFile` : File path to be used for storing data (when using the internal storage system); Defaults to `/tmp/idserver.data`;
 
