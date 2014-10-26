@@ -1,8 +1,8 @@
 {
   "author": "David Oliveira <d.oliveira@prozone.org>",
   "name": "idserver",
-  "description": "A sequencial ID generation server",
-  "version": "0.1.1",
+  "description": "A sequential ID generation server",
+  "version": "0.1.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/davidfoliveira/node-idserver/"
@@ -22,7 +22,7 @@
     "node": ">=0.10.5"
   },
   "keywords": [
-    "sequencial",
+    "sequential",
     "id",
 	"generator",
     "server"

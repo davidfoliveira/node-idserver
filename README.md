@@ -1,6 +1,6 @@
-# idserver: A sequencial ID generation server
+# idserver: A sequential ID generation server
 
-`idserver` is a node.js centralized sequencial ID server for helping distributed applications getting unique and sequencial IDs for their entities.
+`idserver` is a node.js centralized sequential ID server for helping distributed applications getting unique and sequential IDs for their entities.
 
 ## Installing
 
