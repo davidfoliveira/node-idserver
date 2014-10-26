@@ -6,10 +6,10 @@ var
 
 client.ask("x",10,function(err,ids){
 	if ( err ) {
-		console.log("Error getting ids: ",err);
+		console.log("Error getting IDs: ",err);
 		throw err;
 	}
 
-	console.log("IDS: ",ids);
+	console.log("IDs: ",ids);
 });
 
