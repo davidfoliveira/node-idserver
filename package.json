@@ -1,0 +1,30 @@
+{
+  "author": "David Oliveira <d.oliveira@prozone.org>",
+  "name": "idserver",
+  "description": "A sequencial ID generation server and appropriate client for node.js",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidfoliveira/node-idserver/"
+  },
+  "main": "./lib/idserver",
+  "bin": {
+    "server": "./bin/server.js"
+  },
+  "dependencies": {
+    "fnlock": ">=0.0.4",
+    "async":  ">=0.9.0"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "license": "Copyleft",
+  "engines": {
+    "node": ">=0.10.5"
+  },
+  "keywords": [
+    "sequencial",
+    "id",
+	"generator",
+    "server"
+  ]
+}
