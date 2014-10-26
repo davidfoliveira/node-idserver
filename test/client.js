@@ -1,12 +1,12 @@
 "use strict";
 
 var
-	Client = require('../lib/id').Client,
-	client = new Client({host: "127.0.0.1"});
+	IDClient = require('../lib/id').Client,
+	client = new IDClient({host: "127.0.0.1"});
 
 client.ask("x",10,{},function(err,ids){
 	if ( err ) {
-		console.log("Error getting id's: ",err);
+		console.log("Error getting ids: ",err);
 		throw err;
 	}
 
