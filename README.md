@@ -37,7 +37,7 @@ The default server (bin/server.js) shipped with idserver has no configurations -
 
 - `keyOptions` : An object containing the options to be used for a specific key; The supported options are: `idPattern`;
 
-- `DEBUG` : Activates or deactivates de debugging mode; Defaults to `false`.
+- `DEBUG` : Activates or deactivates the debugging mode; Defaults to `false`.
 
 
 ## Running a client and asking for ids:
