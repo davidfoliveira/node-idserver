@@ -1,7 +1,7 @@
 {
   "author": "David Oliveira <d.oliveira@prozone.org>",
   "name": "idserver",
-  "description": "A sequencial ID generation server and appropriate client for node.js",
+  "description": "A sequencial ID generation server",
   "version": "0.1.0",
   "repository": {
     "type": "git",
