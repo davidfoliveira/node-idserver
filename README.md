@@ -43,7 +43,7 @@ The default server (bin/server.js) shipped with idserver has no configurations -
 ## Running a client and asking for ids:
 
     var
-        IDClient = require('../lib/id').Client,
+        IDClient = require('idserver').Client,
         client = new IDClient({host: "127.0.0.1"});
 
     client.ask("x",10,function(err,ids){

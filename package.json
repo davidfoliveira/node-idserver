@@ -2,12 +2,12 @@
   "author": "David Oliveira <d.oliveira@prozone.org>",
   "name": "idserver",
   "description": "A sequential ID generation server",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/davidfoliveira/node-idserver/"
   },
-  "main": "./lib/idserver",
+  "main": "./lib/id",
   "bin": {
     "server": "./bin/server.js"
   },
